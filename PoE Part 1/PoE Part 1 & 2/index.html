@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>home</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Tomorrow Oil</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="about.html" class="active">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="toggle-container">
+        <button class="toggle-btn" id="darkModeToggle">🌙 Dark Mode</button>
+    </div>
+    <header id="about">
+        <h1>Tomorrow Oil CC</h1>
+        <h2>Sustaining Tomorrow's Earth, Today.</h2>
+    </header>
+    <div class="container">
+        <div class="content">
+            <p>
+                Tomorrow Oil is a black-owned family company that has been in operation since 2005. 
+                We pride ourselves on preserving the environment through sustainable management of used oil. 
+                Our company specializes in recycling, storage, and refining of used oil into high-quality products.
+            </p>
+            <img src="images\Oilrefinery.webp" 
+                 alt="Modern oil refinery facility" 
+                 class="hero-image">
+                 <div class="services" id="services">
+                    <div class="service-card">
+                        <h3>Oil Recycling</h3>
+                        <p>Environmentally responsible processing of used oil to prevent pollution and conserve resources.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Refining</h3>
+                        <p>Advanced refining processes to transform used oil into high-quality diesel, lubricants, and more.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Storage Solutions</h3>
+                        <p>Safe and secure storage facilities for used oil awaiting processing.</p>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <a href="#contact" class="contact-btn" id="contactBtn">Contact Us Today</a>
+                </div>
+            </div>
+        </div>
+        <footer id="contact">
+            &copy; <span id="currentYear"></span> Tomorrow Oil CC | 
+            <a href="mailto:ST10491838@rcconnect.edu.za" style="color: var(--light-green);">Tshegofatso Moloko</a>
+        </footer>
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <h2>Contact Tomorrow Oil CC</h2>
+                <p>We'd love to hear from you! Here's how you can reach us:</p>
+                <ul>
+                    <li>Email: info@tomorrowoil.co.za</li>
+                    <li>Phone: +27 12 321 6767/li>
+                    <li>1 Windsor Road Luiperdsvlei, Krugersdorp, South Africa</li>
+                </ul>
+                <p>Our team is available Monday to Friday, 8:00 AM to 5:00 PM
+                    And Satursay from 10:00 AM to 14:00 PM
+                </p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
